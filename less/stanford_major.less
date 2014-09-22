@@ -404,6 +404,11 @@ li.menu-1545.menu-path-majors.first.odd a:visited {
   white-space: nowrap;
 }
 /* flip the pane when hovered*/
+.card-back {
+  padding: 0.5em 1em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .no-csstransforms3d .flip-container.hover .card-back {
   display: block;
   color: #827251;
@@ -471,6 +476,9 @@ ul li {
 .view-id-stanford_majors.view-display-id-block_1 .card-back .card-degree-types,
 .view-id-stanford_majors.view-display-id-block_2 .card-back .card-degree-types {
   padding: 0 10px;
+}
+.card-degree-types span:first-of-type {
+  margin-left: 0;
 }
 .view-id-stanford_majors.view-display-id-page .flip-container .field-name-title,
 .view-id-stanford_majors.view-display-id-majors_alphabetical .flip-container .field-name-title,
@@ -705,6 +713,13 @@ ul li {
   border-radius: 2px;
   margin: 4px;
 }
+.view-id-stanford_majors.view-display-id-page .card-degree-types .degree:first-of-type,
+.view-id-stanford_majors.view-display-id-majors_alphabetical .card-degree-types .degree:first-of-type,
+.view-id-stanford_majors.view-display-id-block_1 .card-degree-types .degree:first-of-type,
+.view-id-stanford_majors.view-display-id-block_2 .card-degree-types .degree:first-of-type {
+  margin-left: 0;
+}
+
 .view-id-stanford_majors.view-display-id-page .card-flip-description,
 .view-id-stanford_majors.view-display-id-majors_alphabetical .card-flip-description,
 .view-id-stanford_majors.view-display-id-block_1 .card-flip-description,

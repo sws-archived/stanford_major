@@ -1,0 +1,967 @@
+.node-type-stanford-major{
+  h1#page-title{
+    display: none;
+  }
+
+  .links-list ul,
+  ul.links-list {
+    margin-left:0px;
+    padding-left:0px;
+    border-top:0px solid #e0dcd4;
+  }
+
+  .links-list ul li,
+  ul.links-list li {
+    list-style:none;
+    padding:0px;
+    margin:0px;
+  }
+
+  .links-list ul li .views-field-description p{
+  margin: 0;
+  }
+
+  .links-list ul li .views-field-description {
+    display:block;
+    padding:7px 10px;
+    background-color:transparent;
+    color: #827251;
+    border-bottom:1px solid #e0dcd4;
+    //background-image: url("../images/gold-arrow-right.png");
+    //background-repeat:no-repeat;
+    //background-position:98%;
+  }
+
+  .links-list ul li  .views-field-description:hover{
+    background-color:white;
+    text-decoration:none;
+    color:black;
+  }
+
+  .block.links-list h2 {
+    margin-bottom:0px;
+  }
+
+  .block.links-list ul{
+    border-top:none;
+  }
+
+  .block ul.links-list,
+  .block ul.links-list-topline,
+  .block .links-list ul {
+    margin-top:-10px;
+  }
+
+  .page-node .node .content ul.links-list {
+    margin-top:-12px;
+  }
+
+} //.node-type-stanford-major
+
+#block-views-majors-degrees-offered-block{
+  margin: 0px;
+}
+#block-views-stanford-majors-block-3{
+  margin-top:15px;
+}
+
+#isotope-container{
+  margin-top:0px;
+  padding-top:0px;
+}
+
+/* Banner Style */
+
+#major-banner-image{
+  position: relative;
+  overflow-x: hidden;
+
+  @media only screen and (min-width : 480px) {
+    overflow: hidden;
+  }
+}
+
+#major-banner-text{
+  background: #000 url('img/transparent-black.png');
+  width: 93%;
+  padding: 20px 20px 20px 20px;
+
+  @media only screen and (min-width : 480px) {
+    background: transparent url('img/transparent-black.png');
+    width:260px;
+    right: 0px;
+    padding: 20px 20px 400px 20px;
+    margin-bottom: -380px;
+    position:absolute;
+    top: 0px;
+  }
+}
+
+#major-banner-school{
+  padding-top:0px;
+  padding-left:0px;
+  color:#fff;
+  font-size: 10px;
+  text-transform: uppercase;
+
+  @media only screen and (min-width : 480px) {
+    padding-top:20px;
+    font-size: 13px;
+  }
+}
+
+#major-banner-title{
+  padding-top:0px;
+  padding-left:0px;
+
+  h1{
+    font-weight: bold;
+    color:#F39C00;
+    font-size: 22px;
+
+    @media only screen and (min-width : 480px) {
+      font-size: 36px;
+    }
+  }
+}
+
+#major-banner{
+//  width:940px;
+//  height:315px;
+//  width: auto;
+  position:relative;
+}
+
+/* Majors Menu */
+block-nice-menus-1 {
+  margin: 0;
+  text-align: right;
+  clear: left;
+  display: none;
+  position: relative;
+  z-index: 149;
+  height: 36px;
+
+  @media (min-width: 45.5em) {
+    display: block;
+  }
+  @media (min-width: 66.5em) {
+    margin: 20px 0 0;
+    text-align: left;
+    clear: none;
+    float: right;
+  }
+}
+
+div#block-nice-menus-1.clearfix.block.block-nice-menus.contextual-links-region{
+ width:100%;
+}
+div#block-nice-menus-1.clearfix.block.block-nice-menus{
+ width:100%;
+}
+#block-nice-menus-1 h2 {
+    display: none;
+}
+
+#block-nice-menus-1 ul.nice-menu {
+  list-style-type: none;
+  background: #FBFBF9;
+  border: #E3DFD5 1px solid !important;
+  webkit-box-shadow: 0px 0px 0px 4px #F7F5F3;
+  -moz-box-shadow: 0px 0px 0px 4px #F7F5F3;
+  box-shadow: 0px 0px 0px 4px #F7F5F3;
+  margin: 0 0em;
+  padding: 0 0em;
+  line-height: 1em;
+  width: 100%;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+   margin-right:15px;
+   text-align: right;
+
+  @media (min-width: 45.5em) {
+    margin: 0 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    }
+  }
+
+#block-nice-menus-1 ul.nice-menu li {
+  background: none;
+  border: none;
+  width: auto;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 0 10px 0 10px;
+
+@media (min-width: 45.5em) {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    float: none;
+    text-align: right;
+    //width:150px;
+  }
+
+  a{
+    color: #827251;
+    display: block;
+    font-weight:bold;
+    font-size: 15px;
+    padding: 8px 0px 8px 0px;
+
+    &:hover,
+    &:focus,
+    &.active{
+      color: #8a1515;
+      text-decoration: none;
+    }
+    // @media (min-width: 45.5em) {
+    //   padding: 0;
+    // }
+  }
+  &.menu-path-majors{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    @media (min-width: 45.5em) {
+      float: left;
+      }
+  }
+}
+
+#block-nice-menus-1 ul.nice-menu li.menuparent > a,
+#block-nice-menus-1 ul.nice-menu li.menuparent > span.nolink {
+  background: transparent url("img/nav-drop-arrow.png") no-repeat center right;
+  margin: 0 0 0 0;
+  color:#827251;
+  display: block;
+  font-weight:bold;
+  font-size: 15px;
+  padding: 8px 10px 8px 0px;
+
+  &:hover,
+  &:focus{
+    color: #8a1515;
+    text-decoration: none;
+  }
+}
+
+#block-nice-menus-1 ul.nice-menu li.menuparent > ul {
+  width: auto;
+  min-width: 100px;
+  display: inline-block;
+  top: 25px;
+  left: 0px;
+
+  border: none;
+  background-color: #fff;
+  margin: 1px 0 0;
+  padding: 0px 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  text-align: left;
+
+  @media (min-width: 45.5em) {
+      //width: 200px;
+      top: 36px;
+      left: 0px;
+    }
+
+}
+#block-nice-menus-1 ul.nice-menu li.menuparent > ul li {
+  line-height: 16px;
+  padding: 0px;
+  display: block;
+  //width: 100%;
+  border:1;
+  text-align: left;
+
+  @media (min-width: 45.5em) {
+    display: block;
+    width: 100%;
+  }
+
+}
+#block-nice-menus-1 ul.nice-menu li.menuparent > ul li a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  line-height: 20px;
+  white-space: nowrap;
+  //width: 100%;
+  color: white;
+  margin: 0;
+  color: #827252;
+  font-weight: normal;
+  text-align: left;
+  font-size: 13px;
+
+}
+
+
+#block-nice-menus-1 ul.nice-menu li.menuparent > ul li a:hover {
+  color: #8C1515;
+  text-decoration: none;
+  background: none repeat scroll 0% 0% #F2F1EB;
+}
+
+#isotope-checkbox-options{
+  input[type="checkbox"] {
+      margin: 0px 5px 0 0;
+  }
+}
+
+
+/*background-color: #f2f1eb; color: #827252;*/
+
+/*Majors Display */
+#block-ds-extras-banner h2{
+ display:none;
+}
+
+div.view.view-majors-degrees-offered.view-id-majors_degrees_offered.view-display-id-block.clearfix.span6{
+  width:100%;
+}
+
+#block-views-majors-degrees-offered-block h2,
+div[id^=block-views-stanford-majors-block] h2,
+div#block-views-majors-degrees-offered-block h2 {
+  border-bottom: 0px;
+  color:#575653;
+  background: #F2F1EB;
+  padding: 10px;
+}
+
+.-majors-title{
+  height:350px;
+}
+
+/*Isotope & Card Flipping Displays */
+
+
+
+#filter-display {
+  font-size: 18px;
+  padding: 0.5em;
+}
+
+.option-set label {
+  display: inline;
+  text-transform: uppercase;
+  height:20px;
+  margin: 0 2px 15px;
+  padding: 0 6px;
+  float: left;
+  color: #827251;
+  float:left;
+}
+
+.isotope-element {
+  width: 190px;
+  height:280px;
+  margin: 0px 0px;
+  padding:0px;
+  float: left;
+  position: relative;
+  //background: #fff;
+  overflow: hidden;
+  color: #fff;
+
+  a,
+  a code {
+    color: #827251 !important;
+    text-decoration: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  a:hover,
+  a:hover code,
+  a:active,
+  a:active code {
+    color:#8a1515;
+  }
+
+  img {
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
+div[id^=isotope-container]{
+  width:100%;
+}
+
+ul#nice-menu-1.nice-menu.nice-menu-right.nice-menu-menu-stanford-majors-menu.nice-menus-processed.sf-js-enabled{
+   border: 0px solid black;
+   width:100%;
+}
+ul#nice-menu-1.nice-menu.nice-menu-right.nice-menu-menu-stanford-majors-menu.nice-menus-processed.sf-js-enabled li ul{
+
+}
+
+li.menu-1541.menu-path-majors.first.odd{
+  padding-right:15%;
+}
+li.menu-1543.menuparent.menu-path-nolink.even{
+  margin-left:20%;
+}
+li.menu-1544.menu-path-majors.first.odd a:active{
+  font-weight:bold;
+}
+li.menu-1545.menu-path-majors.first.odd a:visited{
+  color:#8a1515;
+}
+
+
+
+/* FLIP CONTAINER STYLES */
+
+/* entire container, keeps perspective */
+.flip-container{
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+  color:#000;
+  float: left;
+  display: block;
+  margin: 0 20px 0px 0px;
+  padding-bottom: 24px;
+  //background: url(img/card-shadow.png) center bottom no-repeat;
+
+
+  &.isotope-element-{
+    //margin-left: 0px;
+  }
+}
+
+/* When in a View  use less padding */
+#block-views-stanford-majors-block-1 .flip-container {
+  margin: 0 15px 0px 0px;
+  padding-bottom: 0;
+}
+
+.flip-container .field-name-body{
+  height:195px;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:inline-block;
+  white-space:nowrap;
+}
+
+/* flip the pane when hovered*/
+// .flip-container:focus .card-flipper,
+// .flip-container.focus .card-flipper {
+//   // -webkit-transform: rotateY(180deg);
+//   // -moz-transform: rotateY(180deg);
+//   // -o-transform: rotateY(180deg);
+//   // transform: rotateY(180deg);
+// }
+
+
+.no-csstransforms3d .flip-container.hover .card-back{
+  display: block;
+  color:#827251;
+}
+.no-csstransforms3d .flip-container.hover .card-front{
+  display: none;
+}
+
+
+
+.card-flip-image{
+  // float:left;
+  // width:100%;
+  // height:165px;
+  // clear:both;
+  // top:0;
+  // border:20px;
+  padding-bottom:12px;
+}
+
+.bef-checkboxes .form-item  {
+  float: left;
+  padding:15px;
+  background-color:#efefef;
+}
+
+
+ul{
+padding: 5px;
+list-style-type:decimal;
+}
+ul li {
+display: inline;
+margin: 0 2px;
+padding: 0 2px;
+}
+
+ ul.menu.nav li {
+  display: inline-block;
+}
+
+ ul.menu.nav ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #cbc19e;
+  background-color: #322918;
+  width: 100%;
+  display: block;
+}
+
+
+.view-id-stanford_majors.view-display-id-page,
+.view-id-stanford_majors.view-display-id-majors_alphabetical,
+.view-id-stanford_majors.view-display-id-block_1,
+.view-id-stanford_majors.view-display-id-block_2{
+
+  .flip-container,
+  .card-front,
+  .card-back {
+    width:215px;
+    height:340px;
+
+    .card-degree-types{
+      padding: 0 10px;
+    }
+
+    .field-name-title{
+      font-size:19px;
+      padding: 0 10px;
+      color: #827251;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+    }
+
+    .field-name-card-back-title{
+      font-size:19px;
+      padding: 10px 10px 0 10px;
+      color: #827251;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+
+      p{
+        margin-left: 0 !important;
+      }
+    }
+    .field-type-text-long{
+      padding: 0 10px 10px 10px;
+    }
+    .field-name-node-link{
+      font-size: 11px;
+      display: block;
+      clear: both;
+      padding: 0 10px 10px 10px;
+    }
+
+    &:hover{
+      cursor: pointer;
+
+      .field-name-title{
+        color: #8c1515;
+      }
+    }
+  }
+
+  .card-description{
+    height:180px;
+  }
+
+  .card-flip-image img {
+  border-bottom: none !important;
+  padding-bottom: 0px;
+  }
+  /* flip speed goes here */
+  // .card-flipper {
+  //   -webkit-transition: 0.6s;
+  //   -webkit-transform-style: preserve-3d;
+  //   -moz-transition: 0.6s;
+  //   -moz-transform-style: preserve-3d;
+  //   -o-transition: 0.6s;
+  //   -o-transform-style: preserve-3d;
+  //   transition: 0.6s;
+  //   transform-style: preserve-3d;
+  //   position: relative;
+
+  // }
+  .card-front-container{
+
+  }
+  .card-flipper legend{
+    display:none;
+  }
+
+  /* hide back of pane during swap */
+  .card-front,
+  .card-back {
+    // -webkit-backface-visibility: hidden;
+    // -moz-backface-visibility: hidden;
+    // -o-backface-visibility: hidden;
+    // backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    background-color: #F2F1EB;
+    overflow-y: auto;
+  }
+
+  /* front pane, placed above back */
+  .card-front {
+    z-index: 2;
+  }
+
+
+  .card-back{
+    // -webkit-transform: rotateY(180deg);
+    // -moz-transform: rotateY(180deg);
+    // -o-transform: rotateY(180deg);
+    // transform: rotateY(180deg);
+
+    .card-flip-title {
+      margin-top:15px;
+      color:#827251;
+      font-size:19px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .card-learn-more {
+      background:transparent url('img/gold-arrow-square.png') left center no-repeat ;
+      color: #827251 !important;
+      font-weight: 600;
+      bottom: 10px;
+      padding: 2px 0px 2px 15px;
+      display: inline-block;
+      text-transform: uppercase;
+      //position:absolute;
+
+      a,
+      a:visited,
+      a:active{
+        color: #827251 !important;
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus{
+        color:#8a1515 !important;
+      }
+    }
+  }
+
+
+  /*back hover state*/
+
+  .card-back:hover,
+  .card-back.hover {
+    background: #F2F1EB;
+  }
+
+  .card-description{
+    padding:10px;
+    margin-top:15px;
+  }
+
+  .card-degree-types{
+    margin-top:20px;
+  }
+
+  .card-degree-types .degree{
+    font-size: 11px;
+    display: inline;
+    color: #fff !important;
+    background-color: #827251;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 1px 2px;
+    border-radius:2px;
+    margin:4px;
+  }
+
+  .card-flip-description {
+    font-size: 13px;
+    line-height: 16px;
+    margin:  0 0 20px 0;
+    color:black;
+    color: #575653;
+  }
+
+  /* older browsers */
+  .no-csstransforms3d .flip-container .back{
+    display: none;
+  }
+
+  .no-csstransforms3d .flip-container.focus .back{
+    display: block;
+  }
+  .no-csstransforms3d .flip-container.focus .front{
+    display: none;
+  }
+
+  .card-flip-image .isotope-element img {
+    // width: 215px;
+    // height: 215px;
+    display: block;
+  }
+
+
+
+} //#isotope-container
+
+.navbar {
+margin-bottom: 20px;
+overflow: visible;
+position: relative;
+}
+
+
+#block-its-search-its-search-search{
+  width: 240px;
+  z-index: 300;
+
+  td {
+  border-bottom: medium none;
+  border-left: medium none;
+  border-right: medium none;
+  border-top: none;
+  padding: 0;
+  &.gsib_a{
+
+  }
+  }
+  .gsc-search-box{
+    position: relative;
+  }
+
+  .gsc-input{
+//    position: absolute;
+//    left: 0;
+//    top: 0;
+  }
+
+  input.gsc-search-button{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    height: 32px;
+    width: 26px;
+    border-color: transparent;
+    background: transparent url(https://undergrad.stanford.edu/sites/default/themes/open_framework/images/searchbutton.png) center center no-repeat;
+    filter: none;
+    text-indent: -9999px;
+    min-width: 26px;
+
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+      width: 13px;
+      height: 13px;
+      padding: 11px 12px;
+      min-width: 13px;
+      margin-top: 2px;
+    }
+  }
+
+    div.gsc-clear-button {
+      display: none;
+      position: absolute;
+      right: 36px;
+      top: 0px;
+      text-align: right;
+      margin-left: 4px;
+      margin-right: 4px;
+      padding-left: 10px;
+      cursor: pointer;
+      height: 34px;
+  }
+  .gsc-input-box {
+      //height: 25px;
+      background: none;
+      border: #F7F5F3 0px solid !important;
+      // webkit-box-shadow: 0px 0px 0px 1px #E3DFD5;
+      // -moz-box-shadow: 0px 0px 0px 1px #E3DFD5;
+      // box-shadow: 0px 0px 0px 1px #E3DFD5;
+      // -webkit-border-radius: 4px;
+      // -moz-border-radius: 4px;
+      // -ms-border-radius: 4px;
+      // -o-border-radius: 4px;
+      // border-radius: 4px;
+      // padding: 9px;
+      font-size: 13px;
+
+  }
+
+  input.gsc-input,
+  .gsc-input-box,
+  .gsc-input-box-hover,
+  .gsc-input-box-focus {
+  border: none !important;
+  margin: 0 !important;
+  webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  }
+
+  input.gsc-input {
+      font-size: 14px;
+      margin: 0;
+      width: 175px !important;
+      background: #FBFBF9 !important;
+      box-shadow: none;
+      border: #F2F1EB 3px solid !important;
+      webkit-box-shadow: 0px 0px 0px 1px #DDD9CF;
+      -moz-box-shadow: 0px 0px 0px 1px #DDD9CF;
+      box-shadow: 0px 0px 0px 1px #DDD9CF;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+      border-radius: 6px;
+      padding: 4px 45px 4px 6px !important;
+
+  }
+
+
+  .gsib_a,
+  .gsib_b {
+      vertical-align: top;
+      font-size: 13px;
+      padding: 0px;
+  }
+  .gsib_b{
+    position: absolute;
+    top: 2px;
+    right: 40px;
+  }
+  .gsst_a {
+  padding-top: 12px;
+  }
+  .gsst_a .gscb_a {
+  color: #cbc19e;
+  cursor: pointer;
+  }
+  .gsst_b {
+
+      font-size: 13px;
+      padding: 0px 0px;
+      position: relative;
+      -moz-user-select: none;
+      white-space: nowrap;
+  }
+} //block-its-search-its-search-search
+
+
+/**
+ * Card Flipping CSS
+ */
+
+.view-id-stanford_majors.view-display-id-page,
+.view-id-stanford_majors.view-display-id-majors_alphabetical,
+.view-id-stanford_majors.view-display-id-block_1,
+.view-id-stanford_majors.view-display-id-block_2 {
+
+  /* entire container, keeps perspective */
+  .flip-container {
+    perspective: 1000;
+    transform-style: preserve-3d;
+  }
+
+  /* flip the pane when hovered */
+  .flip-container:focus .card-flipper,
+  .flip-container.focus .card-flipper {
+    // -webkit-transform: rotateY(-180deg);
+    // -moz-transform: rotateY(-180deg);
+    // -o-transform: rotateY(-180deg);
+    // -ms-transform: rotateY(-180deg);
+    // transform: rotateY(-180deg);
+  }
+
+  .flip-container:focus .card-flipper .card-back,
+  .flip-container.focus .card-flipper .card-back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  .flip-container:focus .card-flipper .card-front,
+  .flip-container.focus .card-flipper .card-front {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+
+  /* flip speed goes here */
+  .card-flipper {
+    position: relative;
+  }
+
+  /* hide back of pane during swap */
+  .card-front, .card-back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -ms-transition: 0.6s;
+    transition: 0.6s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+  }
+
+  .card-front {
+    transform: rotateY(0deg);
+  }
+
+  /* back, initially hidden pane */
+  .card-back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+
+}
+

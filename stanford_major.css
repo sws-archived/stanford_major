@@ -416,6 +416,15 @@ li.menu-1545.menu-path-majors.first.odd a:visited {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+#content-body .content .card-back .field-item p {
+  margin: 0;
+}
+.card-back .field-name-field-card-text {
+  padding: 0 1em 0.75em;
+}
+.card-back .field-name-card-back-title p {
+  margin: 0;
+}
 .no-csstransforms3d .flip-container.hover .card-back {
   display: block;
   color: #827251;

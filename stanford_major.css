@@ -421,9 +421,12 @@ li.menu-1545.menu-path-majors.first.odd a:visited {
 }
 .card-back .field-name-field-card-text {
   padding: 0 1em 0.75em;
+  font-size: 0.95em;
+  line-height: 1.3em;
 }
-.card-back .field-name-card-back-title p {
-  margin: 0;
+#content-body .card-back .field-name-card-back-title p {
+  margin: 0 0 0.5em;
+  padding-left: 3px;
 }
 .no-csstransforms3d .flip-container.hover .card-back {
   display: block;

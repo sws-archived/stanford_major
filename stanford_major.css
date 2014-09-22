@@ -59,6 +59,19 @@
   margin-top: 0px;
   padding-top: 0px;
 }
+/* links list style on sidebar blocks */
+#block-ds-extras-majors-rh-sidebar a,
+#block-views-exploratory-courses-block a,
+.field-name-field-s-major-related-links a {
+  background-color: transparent;
+  background-image: url("../images/gold-arrow-right.png");
+  background-position: 98% center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #e0dcd4;
+  color: #827251;
+  display: block;
+  padding: 7px 10px;
+}
 /* Banner Style */
 #major-banner-image {
   position: relative;

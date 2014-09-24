@@ -922,9 +922,11 @@ ul li {
   -moz-user-select: none;
   white-space: nowrap;
 }
+
 /**
  * Card Flipping CSS
  */
+
 .view-id-stanford_majors.view-display-id-page,
 .view-id-stanford_majors.view-display-id-majors_alphabetical,
 .view-id-stanford_majors.view-display-id-block_1,
@@ -1021,3 +1023,47 @@ ul li {
   -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
+
+
+/**
+ * IOS Cant handle the flip
+ */
+
+.cantflip {
+  .view-id-stanford_majors.view-display-id-page .card-front,
+  .view-id-stanford_majors.view-display-id-majors_alphabetical .card-front,
+  .view-id-stanford_majors.view-display-id-block_1 .card-front,
+  .view-id-stanford_majors.view-display-id-block_2 .card-front,
+  .view-id-stanford_majors.view-display-id-page .card-back,
+  .view-id-stanford_majors.view-display-id-majors_alphabetical .card-back,
+  .view-id-stanford_majors.view-display-id-block_1 .card-back,
+  .view-id-stanford_majors.view-display-id-block_2 .card-back {
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    -o-backface-visibility: visible;
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  .view-id-stanford_majors.view-display-id-page .card-back,
+  .view-id-stanford_majors.view-display-id-majors_alphabetical .card-back,
+  .view-id-stanford_majors.view-display-id-block_1 .card-back,
+  .view-id-stanford_majors.view-display-id-block_2 .card-back {
+    position: relative;
+    display: none;
+  }
+  .view-id-stanford_majors.view-display-id-page .flip-container:focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-majors_alphabetical .flip-container:focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-block_1 .flip-container:focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-block_2 .flip-container:focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-page .flip-container.focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-majors_alphabetical .flip-container.focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-block_1 .flip-container.focus .card-flipper .card-front,
+  .view-id-stanford_majors.view-display-id-block_2 .flip-container.focus .card-flipper .card-front {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+
